@@ -27,8 +27,8 @@ const ContactSection = () => {
           <div>
             <h3 className="text-lg font-semibold mb-2">Address</h3>
             <p className="text-gray-700 leading-relaxed">
-              Block 52, Plot 27A, Bisola Durosinmi-Etti Drive,<br />
-              Lekki Phase 1, Lagos State, Nigeria.
+              09 Rear Admiral Ozojiofor Avaenue GRA,<br />
+              Awka, Anambra State, Nigeria.
             </p>
           </div>
         </div>
@@ -37,13 +37,13 @@ const ContactSection = () => {
         <div>
           <h3 className="text-lg font-semibold mb-2">Contact</h3>
           <p className="text-gray-700 leading-relaxed">
-            07084337763 <br />
-            07030196806 <br />
+            07032987289 <br />
+            07000000000 <br />
             <a
-              href="mailto:info@henrybdesigns.com"
+              href="henryokagbue2014@gmail.com"
               className="text-secondary font-medium hover:underline"
             >
-              info@henrybdesigns.com
+              henryokagbue2014@gmail.com
             </a>
           </p>
         </div>

@@ -12,7 +12,7 @@ const categories = [
   "ongoing",
 ];
 
-const ITEMS_PER_PAGE = 6;
+const ITEMS_PER_PAGE = 10;
 
 const AllProjects = () => {
   const [open, setOpen] = useState(false);
@@ -20,7 +20,7 @@ const AllProjects = () => {
   const [activeCategory, setActiveCategory] = useState("all");
   const [currentPage, setCurrentPage] = useState(1);
 
-  /* FILTER */
+  /* FILTER PROJECTS */
   const filteredProjects =
     activeCategory === "all"
       ? projects
@@ -35,8 +35,8 @@ const AllProjects = () => {
 
   /* PAGINATION LOGIC */
   const totalPages = Math.ceil(filteredProjects.length / ITEMS_PER_PAGE);
-
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+
   const paginatedProjects = filteredProjects.slice(
     startIndex,
     startIndex + ITEMS_PER_PAGE
@@ -44,11 +44,12 @@ const AllProjects = () => {
 
   return (
     <section className="bg-[#f7f4ee] px-4 sm:px-8 lg:px-16 py-16">
+      {/* HEADER */}
       <h2 className="text-4xl sm:text-5xl font-heading text-black mb-4">
         All Projects
       </h2>
 
-      <p className="text-gray-700 text-base sm:text-lg leading-relaxed max-w-3xl mb-8">
+      <p className="text-gray-700 text-base sm:text-lg leading-relaxed max-w-3xl mb-10">
         Explore our full portfolio of completed projects. From luxurious living spaces
         to modern kitchens and bedrooms, each project reflects our commitment to quality,
         creativity, and attention to detail.
@@ -75,12 +76,15 @@ const AllProjects = () => {
 
       {/* PROJECT GRID */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {paginatedProjects.map((project, i) => (
+        {paginatedProjects.map((project) => (
           <div
             key={project.id}
             className="group overflow-hidden rounded-xl cursor-pointer"
             onClick={() => {
-              setIndex(startIndex + i);
+              const actualIndex = filteredProjects.findIndex(
+                (p) => p.id === project.id
+              );
+              setIndex(actualIndex);
               setOpen(true);
             }}
           >
@@ -104,7 +108,7 @@ const AllProjects = () => {
 
       {/* PAGINATION */}
       {totalPages > 1 && (
-        <div className="flex justify-center items-center gap-3 mt-14">
+        <div className="flex justify-center items-center gap-3 mt-14 flex-wrap">
           <button
             disabled={currentPage === 1}
             onClick={() => setCurrentPage((p) => p - 1)}
