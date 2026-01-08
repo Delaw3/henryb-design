@@ -1,0 +1,32 @@
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  animation: breathing 2s ease-in-out infinite;
+  transition: transform 0.2s ease-in-out;
+  z-index: 1000;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.15);
+}
+
+.whatsapp-icon {
+  color: #ff7900; /* primary color */
+  width: 32px;
+  height: 32px;
+}
+
+/* breathing animation */
+@keyframes breathing {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+
+@import "tailwindcss";
+
+@tailwind utilities;
+
+*{
+    font-family: "Manrope", sans-serif;
+    font-weight:500;
+} 
+
+.font-heading {
+font-family:"Henny Penny", system-ui;
+}
+
+.font-subheading {
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* Custom Tailwind utilities */
+@layer utilities {
+  /* Primary color */
+  .bg-primary {
+    background-color: #552904;
+  }
+  .text-primary {
+    color: #552904;
+  }
+  .border-primary {
+    border-color: #552904;
+  }
+  
+    @media (max-width: 639px) {
+    .max-sm\:bg-primary { background-color: #552904; }
+  }
+
+  /* Secondary color */
+  .bg-secondary {
+    background-color: #ff7900;
+  }
+  .text-secondary {
+    color: #ff7900;
+  }
+  .border-secondary {
+    border-color: #ff7900;
+  }
+
+  /* Hover variants for primary */
+  .hover\:bg-primary:hover {
+    background-color: #552904;
+  }
+  .hover\:text-primary:hover {
+    color: #552904;
+  }
+  .hover\:border-primary:hover {
+    border-color: #552904;
+  }
+
+  /* Hover variants for secondary */
+  .hover\:bg-secondary:hover {
+    background-color: #ff7900;
+  }
+  .hover\:text-secondary:hover {
+    color: #ff7900;
+  }
+  .hover\:border-secondary:hover {
+    border-color: #ff7900;
+  }
+
+  /* Group hover variants for secondary */
+.group:hover .group-hover\:text-secondary {
+  color: #ff7900;
+}
+
+.group:hover .group-hover\:bg-secondary {
+  background-color: #ff7900;
+}
+
+.group:hover .group-hover\:border-secondary {
+  border-color: #ff7900;
+}
+
+}
