@@ -8,7 +8,7 @@ const CACSection = () => {
       
       {/* CENTERED CARD CONTENT */}
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-2xl font-bold mb-3">
+        <h2 className="text-2xl font-bold mb-3 text-primary">
           Company Registration
         </h2>
 
