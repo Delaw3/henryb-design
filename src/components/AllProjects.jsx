@@ -10,6 +10,11 @@ const categories = [
   "bedroom",
   "exterior",
   "ongoing",
+  "dinning",
+  "office",
+  "walldrope",
+  "wall-design",
+  "door-design",
 ];
 
 const ITEMS_PER_PAGE = 10;

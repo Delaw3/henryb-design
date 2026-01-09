@@ -2,122 +2,963 @@ const projects = [
   {
     id: 1,
     title: "Luxury Living Room",
-    description: "A modern luxury living space with bespoke shelving and warm lighting.",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0018.jpg",
     category: "sitting-room"
   },
   {
     id: 2,
-    title: "Contemporary TV Wall",
-    description: "Elegant TV wall design blending functionality with modern aesthetics.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-    category: "bedroom"
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0021.jpg",
+    category: "sitting-room"
   },
   {
     id: 3,
-    title: "Modern Bedroom",
-    description: "Comfortable and stylish bedroom design with natural light.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-    category: "exterior"
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0031.jpg",
+    category: "sitting-room"
   },
   {
     id: 4,
-    title: "Kitchen Renovation",
-    description: "Functional kitchen with sleek cabinets and island.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0040.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 5,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0044.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 6,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0047.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 7,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0051.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 8,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0053.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 9,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0061.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 10,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0062.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 11,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0063.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 12,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0064.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 13,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0066.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 14,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0070.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 15,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0076.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 16,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0077.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 17,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0079.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 18,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0088.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 19,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0090.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 20,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0092.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 21,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0093.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 22,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0100.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 23,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0111.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 24,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0113.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 25,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0116.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 26,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0119.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 27,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0122.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 28,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0124.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 29,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0126.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 30,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0128.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 31,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0131.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 32,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0132.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 33,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0138.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 34,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0139.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 35,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251114-WA0141.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 36,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251220-WA0067.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 37,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251220-WA0097.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 38,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251220-WA0099.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 39,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251220-WA0101.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 40,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251220-WA0121.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 41,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251220-WA0137.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 42,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251220-WA0145.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 43,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251220-WA0188.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 44,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251220-WA0205.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 45,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251220-WA0212.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 46,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251220-WA0215.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 47,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251220-WA0216.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 48,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251220-WA0230.jpg",
+    category: "sitting-room"
+  },
+  // End of living room projects
+
+  /** kitchen projects **/
+  {
+    id: 49,
+    title: "Luxury kitchen Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20251114-WA0081.jpg",
+    category: "kitchen"
+  },
+  {
+    id: 50,
+    title: "Luxury kitchen Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20251114-WA0097.jpg",
+    category: "kitchen"
+  },
+  {
+    id: 51,
+    title: "Luxury kitchen Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20251114-WA0123.jpg",
+    category: "kitchen"
+  },
+  {
+    id: 52,
+    title: "Luxury kitchen Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20251114-WA0133.jpg",
+    category: "kitchen"
+  },
+  {
+    id: 53,
+    title: "Luxury kitchen Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20251220-WA0095.jpg",
+    category: "kitchen"
+  },
+  {
+    id: 54,
+    title: "Luxury kitchen Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20251220-WA0214.jpg",
+    category: "kitchen"
+  },
+  // End of kitchen projects
+
+  /** Bedroom **/
+  {
+    id: 55,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0026.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 56,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0029.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 57,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0037.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 58,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0042.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 59,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0046.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 60,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0055.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 61,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0057.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 62,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0060.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 63,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0086.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 64,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0094.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 65,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0101.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 66,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0105.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 67,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0107.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 68,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0109.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 69,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0110.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 70,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0115.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 71,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0117.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 72,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0120.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 73,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0121.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 74,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0129.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 75,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251114-WA0135.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 76,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0094.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 77,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0098.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 78,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0125.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 79,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0134.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 80,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0160.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 81,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0168.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 82,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0176.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 83,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0177.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 84,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0179.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 85,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0183.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 86,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0189.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 87,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0190.jpg",
+    category: "bedroom"
+  },
+  {
+    id: 88,
+    title: "Luxury Bedroom Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0204.jpg",
+    category: "bedroom"
+  },
+  // End of bedroom projects
+
+  /** Exterior **/
+  {
+    id: 88,
+    title: "Luxury Exterior Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/exterior/IMG-20251114-WA0027.jpg",
+    category: "exterior"
+  },
+  {
+    id: 89,
+    title: "Luxury Exterior Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/exterior/IMG-20251114-WA0082.jpg",
+    category: "exterior"
+  },
+  {
+    id: 90,
+    title: "Luxury Exterior Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/exterior/IMG-20251114-WA0083.jpg",
+    category: "exterior"
+  },
+  {
+    id: 91,
+    title: "Luxury Exterior Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/exterior/IMG-20251114-WA0095.jpg",
+    category: "exterior"
+  },
+  {
+    id: 92,
+    title: "Luxury Exterior Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/exterior/IMG-20251114-WA0099.jpg",
+    category: "exterior"
+  },
+  {
+    id: 93,
+    title: "Luxury Exterior Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/exterior/IMG-20251114-WA0112.jpg",
+    category: "exterior"
+  },
+  {
+    id: 94,
+    title: "Luxury Exterior Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/exterior/IMG-20251114-WA0134.jpg",
+    category: "exterior"
+  },
+  {
+    id: 95,
+    title: "Luxury Exterior Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/exterior/IMG-20251114-WA0136.jpg",
+    category: "exterior"
+  },
+  {
+    id: 96,
+    title: "Luxury Exterior Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/exterior/IMG-20251220-WA0071.jpg",
+    category: "exterior"
+  },
+  {
+    id: 97,
+    title: "Luxury Exterior Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/exterior/IMG-20251220-WA0120.jpg",
+    category: "exterior"
+  },
+  {
+    id: 98,
+    title: "Luxury Exterior Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/exterior/IMG-20251220-WA0200.jpg",
+    category: "exterior"
+  },
+  {
+    id: 99,
+    title: "Luxury Exterior Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/exterior/IMG-20251220-WA0210.jpg",
+    category: "exterior"
+  },
+  
+  // End of exterior projects
+
+  /** Ongoing Projects **/
+  {
+    id: 100,
+    title: "Ongoing Project",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/ongoing/IMG-20251220-WA0012.jpg",
     category: "ongoing"
   },
   {
-    id: 5,
-    title: "Bathroom Upgrade",
-    description: "Luxury bathroom with freestanding bathtub and tiles.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-    category: "sitting-room"
+    id: 101,
+    title: "Ongoing Project",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/ongoing/IMG-20251220-WA0073.jpg",
+    category: "ongoing"
   },
   {
-    id: 5,
-    title: "Bathroom Upgrade",
-    description: "Luxury bathroom with freestanding bathtub and tiles.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-    category: "sitting-room"
+    id: 102,
+    title: "Ongoing Project",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/ongoing/IMG-20251220-WA0178.jpg",
+    category: "ongoing"
+  },
+  //End of Ongoing projects
+
+  /** Dinning Room **/
+  {
+    id: 103,
+    title: "Dinning Room Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/dinning/IMG-20251114-WA0034.jpg",
+    category: "dinning"
   },
   {
-    id: 5,
-    title: "Bathroom Upgrade",
-    description: "Luxury bathroom with freestanding bathtub and tiles.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-    category: "sitting-room"
+    id: 103,
+    title: "Dinning Room Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/dinning/IMG-20251114-WA0054.jpg",
+    category: "dinning"
   },
   {
-    id: 5,
-    title: "Bathroom Upgrade",
-    description: "Luxury bathroom with freestanding bathtub and tiles.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-    category: "sitting-room"
+    id: 103,
+    title: "Dinning Room Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/dinning/IMG-20251114-WA0080.jpg",
+    category: "dinning"
   },
   {
-    id: 5,
-    title: "Bathroom Upgrade",
-    description: "Luxury bathroom with freestanding bathtub and tiles.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-    category: "sitting-room"
+    id: 104,
+    title: "Dinning Room Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/dinning/IMG-20251220-WA0208.jpg",
+    category: "dinning"
   },
   {
-    id: 5,
-    title: "Bathroom Upgrade",
-    description: "Luxury bathroom with freestanding bathtub and tiles.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-    category: "sitting-room"
+    id: 105,
+    title: "Dinning Room Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/dinning/IMG-20251220-WA0229.jpg",
+    category: "dinning"
+  },
+  // End of Dinning Room projects
+
+  /** Office Design **/
+  {
+    id: 106,
+    title: "Office Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/office/IMG-20251220-WA0140.jpg",
+    category: "office"
   },
   {
-    id: 5,
-    title: "Bathroom Upgrade",
-    description: "Luxury bathroom with freestanding bathtub and tiles.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-    category: "sitting-room"
+    id: 107,
+    title: "Office Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/office/IMG-20251220-WA0167.jpg",
+    category: "office"
+  },
+  // End of Office Design projects
+
+  /** Wall Drope Design **/
+  {
+    id: 108,
+    title: "Wall Drope Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251114-WA0016.jpg",
+    category: "walldrope"
   },
   {
-    id: 5,
-    title: "Bathroom Upgrade",
-    description: "Luxury bathroom with freestanding bathtub and tiles.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-    category: "sitting-room"
+    id: 109,
+    title: "Wall Drope Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251114-WA0032.jpg",
+    category: "walldrope"
   },
   {
-    id: 5,
-    title: "Bathroom Upgrade",
-    description: "Luxury bathroom with freestanding bathtub and tiles.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-    category: "sitting-room"
+    id: 110,
+    title: "Wall Drope Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251114-WA0058.jpg",
+    category: "walldrope"
   },
   {
-    id: 5,
-    title: "Bathroom Upgrade",
-    description: "Luxury bathroom with freestanding bathtub and tiles.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-    category: "sitting-room"
+    id: 111,
+    title: "Wall Drope Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251114-WA0068.jpg",
+    category: "walldrope"
   },
   {
-    id: 5,
-    title: "Bathroom Upgrade",
-    description: "Luxury bathroom with freestanding bathtub and tiles.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-    category: "sitting-room"
+    id: 112,
+    title: "Wall Drope Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0126.jpg",
+    category: "walldrope"
   },
   {
-    id: 5,
-    title: "Bathroom Upgrade",
-    description: "Luxury bathroom with freestanding bathtub and tiles.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-    category: "sitting-room"
+    id: 113,
+    title: "Wall Drope Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0127.jpg",
+    category: "walldrope"
   },
   {
-    id: 5,
-    title: "Bathroom Upgrade",
-    description: "Luxury bathroom with freestanding bathtub and tiles.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-    category: "sitting-room"
+    id: 114,
+    title: "Wall Drope Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0129.jpg",
+    category: "walldrope"
   },
+  {
+    id: 115,
+    title: "Wall Drope Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0141.jpg",
+    category: "walldrope"
+  },
+  {
+    id: 116,
+    title: "Wall Drope Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0162.jpg",
+    category: "walldrope"
+  },
+  {
+    id: 117,
+    title: "Wall Drope Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0166.jpg",
+    category: "walldrope"
+  },
+  {
+    id: 118,
+    title: "Wall Drope Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0182.jpg",
+    category: "walldrope"
+  },
+  {
+    id: 119,
+    title: "Wall Drope Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0226.jpg",
+    category: "walldrope"
+  },
+  // End of Wall Drope Design projects
+
+  /** Wall Design **/
+  {
+    id: 120,
+    title: "Wall Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20251114-WA0137.jpg",
+    category: "wall-design"
+  },
+  {
+    id: 121,
+    title: "Wall Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20251114-WA0142.jpg",
+    category: "wall-design"
+  },
+  {
+    id: 122,
+    title: "Wall Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20251220-WA0093.jpg",
+    category: "wall-design"
+  },
+  {
+    id: 123,
+    title: "Wall Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20251220-WA0133.jpg",
+    category: "wall-design"
+  },
+  {
+    id: 124,
+    title: "Wall Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20251220-WA0144.jpg",
+    category: "wall-design"
+  },
+  {
+    id: 125,
+    title: "Wall Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20251220-WA0154.jpg",
+    category: "wall-design"
+  },
+  {
+    id: 126,
+    title: "Wall Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20251220-WA0158.jpg",
+    category: "wall-design"
+  },
+  {
+    id: 127,
+    title: "Wall Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20251220-WA0163.jpg",
+    category: "wall-design"
+  },
+  {
+    id: 128,
+    title: "Wall Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20251220-WA0199.jpg",
+    category: "wall-design"
+  },
+  // End of Wall Design projects
+
+  /** Door  **/
+  {
+    id: 129,
+    title: "Door Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/door/IMG-20251114-WA0019.jpg",
+    category: "door-design"
+  },
+  // {
+  //   id: 129,
+  //   title: "Wall Design",
+  //   description: "",
+  //   image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+  //   category: "wall-design"
+  // },
+  
 ];
 
 export default projects;
