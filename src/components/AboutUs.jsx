@@ -16,7 +16,7 @@ const AboutUs = () => {
         {/* Text */}
         <div className="w-full lg:w-1/2">
           {/* Small Label */}
-          <p className="text-secondary font-semibold text-sm mb-2 uppercase tracking-wider text-center">
+          <p className="text-primary font-semibold text-sm mb-2 uppercase tracking-wider text-center">
             About Us
           </p>
 

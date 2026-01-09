@@ -5,7 +5,7 @@ const ContactSection = () => {
     <section id="contact" className="bg-[#f7f4ee] py-24 px-4 sm:px-12 lg:px-24 xl:px-40">
       {/* Header */}
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <p className="text-secondary font-medium mb-3">
+        <p className="text-primary font-medium mb-3">
           Contact Us
         </p>
 
