@@ -19,7 +19,7 @@ const Projects = () => {
 
         <Link
           to="/projects"
-          className="text-primary flex items-center gap-2 text-lg hover:underline"
+          className="text-secondary flex items-center gap-2 text-lg hover:underline"
         >
           View Our Projects <span className="text-2xl">→</span>
         </Link>

@@ -37,10 +37,10 @@ const ContactSection = () => {
         <div>
           <h3 className="text-lg font-semibold mb-2">Contact</h3>
           <p className="text-gray-700 leading-relaxed">
-            07032987289 <br />
-            07000000000 <br />
+            <a href="tel:+2347032987289" className="text-secondary font-medium hover:underline">07032987289</a> <br />
+            <a href="tel:+2347000000000" className="text-secondary font-medium hover:underline">07000000000</a> <br />
             <a
-              href="henryokagbue2014@gmail.com"
+              href="mailto:henryokagbue2014@gmail.com"
               className="text-secondary font-medium hover:underline"
             >
               henryokagbue2014@gmail.com
