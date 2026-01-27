@@ -2,22 +2,20 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import CarouselBar from "./components/CarouselBar";
-import AboutUs from "./components/AboutUs"; // import AboutUs
-import Projects from "./components/Projects"; // Home featured projects
-import AllProjects from "./components/AllProjects"; // Full projects page
-import Loader from "./components/Loader"; // your loader component
+import AboutUs from "./components/AboutUs";
+import Projects from "./components/Projects";
+import AllProjects from "./components/AllProjects";
+import Loader from "./components/Loader";
 import CACSection from "./components/CACSection";
 import ContactSection from "./components/ContactSection";
 import ServicesSection from "./components/ServicesSection";
 import WhatsappButton from "./components/WhatsappButton";
 import Footer from "./components/Footer";
 
-
 const App = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Loader duration (e.g., 3 seconds)
     const timer = setTimeout(() => {
       setLoading(false);
     }, 3000);
@@ -28,12 +26,13 @@ const App = () => {
   return (
     <BrowserRouter>
       {loading ? (
-        <Loader /> // Show blinking logo loader
+        <Loader />
       ) : (
-        <div>
+        <>
           <Navbar />
+
           <Routes>
-            {/* Home page */}
+            {/* Home */}
             <Route
               path="/"
               element={
@@ -41,19 +40,21 @@ const App = () => {
                   <CarouselBar />
                   <Projects />
                   <ServicesSection />
-                  <AboutUs /> {/* Add AboutUs here */}
+                  <AboutUs />
                   <CACSection />
                   <ContactSection />
-                  <WhatsappButton />
-                  <Footer />
                 </>
               }
             />
 
-            {/* All Projects page */}
+            {/* All Projects */}
             <Route path="/projects" element={<AllProjects />} />
           </Routes>
-        </div>
+
+          {/* GLOBAL COMPONENTS */}
+          <WhatsappButton />
+          <Footer />
+        </>
       )}
     </BrowserRouter>
   );

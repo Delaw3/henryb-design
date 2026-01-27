@@ -3,6 +3,7 @@ import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import projects from "../data/projectsData";
 
+
 const categories = [
   "all",
   "sitting-room",
@@ -15,6 +16,7 @@ const categories = [
   "walldrope",
   "wall-design",
   "door-design",
+  "boutique-design"
 ];
 
 const ITEMS_PER_PAGE = 10;

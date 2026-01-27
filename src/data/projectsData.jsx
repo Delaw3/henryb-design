@@ -335,6 +335,27 @@ const projects = [
     image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20251220-WA0230.jpg",
     category: "sitting-room"
   },
+  {
+    id: 481,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20260117-WA0080.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 482,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20260117-WA0090.jpg",
+    category: "sitting-room"
+  },
+  {
+    id: 483,
+    title: "Luxury Living Room",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/sittingroom/IMG-20260117-WA0095.jpg",
+    category: "sitting-room"
+  },
   // End of living room projects
 
   /** kitchen projects **/
@@ -378,6 +399,69 @@ const projects = [
     title: "Luxury kitchen Design",
     description: "",
     image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20251220-WA0214.jpg",
+    category: "kitchen"
+  },
+  {
+    id: 5401,
+    title: "Luxury kitchen Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20260117-WA0054.jpg",
+    category: "kitchen"
+  },
+  {
+    id: 5402,
+    title: "Luxury kitchen Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20260117-WA0066.jpg",
+    category: "kitchen"
+  },
+  {
+    id: 5403,
+    title: "Luxury kitchen Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20260117-WA0069.jpg",
+    category: "kitchen"
+  },
+  {
+    id: 5404,
+    title: "Luxury kitchen Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20260117-WA0076.jpg",
+    category: "kitchen"
+  },
+  {
+    id: 5405,
+    title: "Luxury kitchen Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20260117-WA0078.jpg",
+    category: "kitchen"
+  },
+  {
+    id: 5406,
+    title: "Luxury kitchen Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20260117-WA0079.jpg",
+    category: "kitchen"
+  },
+  {
+    id: 5407,
+    title: "Luxury kitchen Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20260117-WA0087.jpg",
+    category: "kitchen"
+  },
+  {
+    id: 5408,
+    title: "Luxury kitchen Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20260117-WA0092.jpg",
+    category: "kitchen"
+  },
+  {
+    id: 5409,
+    title: "Luxury kitchen Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/kitchen/IMG-20260117-WA0093.jpg",
     category: "kitchen"
   },
   // End of kitchen projects
@@ -534,37 +618,10 @@ const projects = [
     id: 76,
     title: "Luxury Bedroom Design",
     description: "",
-    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0094.jpg",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20260117-WA0056.jpg",
     category: "bedroom"
   },
-  {
-    id: 77,
-    title: "Luxury Bedroom Design",
-    description: "",
-    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0098.jpg",
-    category: "bedroom"
-  },
-  {
-    id: 78,
-    title: "Luxury Bedroom Design",
-    description: "",
-    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0125.jpg",
-    category: "bedroom"
-  },
-  {
-    id: 79,
-    title: "Luxury Bedroom Design",
-    description: "",
-    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0134.jpg",
-    category: "bedroom"
-  },
-  {
-    id: 80,
-    title: "Luxury Bedroom Design",
-    description: "",
-    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0160.jpg",
-    category: "bedroom"
-  },
+  
   {
     id: 81,
     title: "Luxury Bedroom Design",
@@ -771,6 +828,13 @@ const projects = [
     image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/dinning/IMG-20251220-WA0229.jpg",
     category: "dinning"
   },
+  {
+    id: 150,
+    title: "Dinning Room Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/dinning/IMG-20260117-WA0077.jpg",
+    category: "dinning"
+  },
   // End of Dinning Room projects
 
   /** Office Design **/
@@ -826,20 +890,8 @@ const projects = [
     image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0126.jpg",
     category: "walldrope"
   },
-  {
-    id: 113,
-    title: "Wall Drope Design",
-    description: "",
-    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0127.jpg",
-    category: "walldrope"
-  },
-  {
-    id: 114,
-    title: "Wall Drope Design",
-    description: "",
-    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0129.jpg",
-    category: "walldrope"
-  },
+ 
+ 
   {
     id: 115,
     title: "Wall Drope Design",
@@ -847,13 +899,7 @@ const projects = [
     image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0141.jpg",
     category: "walldrope"
   },
-  {
-    id: 116,
-    title: "Wall Drope Design",
-    description: "",
-    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0162.jpg",
-    category: "walldrope"
-  },
+ 
   {
     id: 117,
     title: "Wall Drope Design",
@@ -862,17 +908,17 @@ const projects = [
     category: "walldrope"
   },
   {
-    id: 118,
-    title: "Wall Drope Design",
-    description: "",
-    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0182.jpg",
-    category: "walldrope"
-  },
-  {
     id: 119,
     title: "Wall Drope Design",
     description: "",
     image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0226.jpg",
+    category: "walldrope"
+  },
+  {
+    id: 1110,
+    title: "Wall Drope Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20260117-WA0075.jpg",
     category: "walldrope"
   },
   // End of Wall Drope Design projects
@@ -941,6 +987,48 @@ const projects = [
     image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20251220-WA0199.jpg",
     category: "wall-design"
   },
+  {
+    id: 1281,
+    title: "Wall Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20260117-WA0065.jpg",
+    category: "wall-design"
+  },
+  {
+    id: 1282,
+    title: "Wall Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20260117-WA0085.jpg",
+    category: "wall-design"
+  },
+  {
+    id: 1283,
+    title: "Wall Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20260117-WA0089.jpg",
+    category: "wall-design"
+  },
+  {
+    id: 1284,
+    title: "Wall Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20260117-WA0091.jpg",
+    category: "wall-design"
+  },
+  {
+    id: 1285,
+    title: "Wall Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20260117-WA0094.jpg",
+    category: "wall-design"
+  },
+  {
+    id: 1286,
+    title: "Wall Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/wall-designs/IMG-20260117-WA0096.jpg",
+    category: "wall-design"
+  },
   // End of Wall Design projects
 
   /** Door  **/
@@ -951,6 +1039,35 @@ const projects = [
     image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/door/IMG-20251114-WA0019.jpg",
     category: "door-design"
   },
+  {
+    id: 1209,
+    title: "Door Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/door/IMG-20260118-WA0012.jpg",
+    category: "door-design"
+  },
+  {
+    id: 1279,
+    title: "Door Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/door/IMG-20260118-WA0013.jpg",
+    category: "door-design"
+  },
+  {
+    id: 1629,
+    title: "Door Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/door/IMG-20260118-WA0014.jpg",
+    category: "door-design"
+  },
+  {
+    id: 126,
+    title: "Door Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/door/IMG-20260118-WA0015.jpg",
+    category: "door-design"
+  },
+
   // {
   //   id: 129,
   //   title: "Wall Design",
@@ -958,6 +1075,59 @@ const projects = [
   //   image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
   //   category: "wall-design"
   // },
+
+  // End of Door projects
+
+  /** Boutique Design **/
+  {
+    id: 76,
+    title: "Luxury Boutique Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0094.jpg",
+    category: "boutique-design"
+  },
+  {
+    id: 77,
+    title: "Luxury Boutique Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0098.jpg",
+    category: "boutique-design"
+  },
+  {
+    id: 78,
+    title: "Luxury Boutique Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0125.jpg",
+    category: "boutique-design"
+  },
+  {
+    id: 79,
+    title: "Luxury Boutique Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0134.jpg",
+    category: "boutique-design"
+  },
+  {
+    id: 80,
+    title: "Luxury Boutique Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/bedroom/IMG-20251220-WA0160.jpg",
+    category: "boutique-design"
+  },
+   {
+    id: 114,
+    title: "Luxury Boutique Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0129.jpg",
+    category: "boutique-design"
+  },
+   {
+    id: 116,
+    title: "Luxury Boutique Design",
+    description: "",
+    image: "https://pvjwquzgfkspweijebwb.supabase.co/storage/v1/object/public/henryB-designs/Projects/walldrope/IMG-20251220-WA0162.jpg",
+    category: "boutique-design"
+  },
   
 ];
 
