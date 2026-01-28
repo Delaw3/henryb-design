@@ -38,12 +38,12 @@ const ContactSection = () => {
           <h3 className="text-lg font-semibold mb-2">Contact</h3>
           <p className="text-gray-700 leading-relaxed">
             <a href="tel:+2347032987289" className="text-secondary font-medium hover:underline">07032987289</a> <br />
-            <a href="tel:+2347000000000" className="text-secondary font-medium hover:underline">07000000000</a> <br />
+            <a href="tel:+2347064622126" className="text-secondary font-medium hover:underline">07064622126</a> <br />
             <a
-              href="mailto:henryokagbue2014@gmail.com"
+              href="mailto:henrybdesignsltd@gmail.com"
               className="text-secondary font-medium hover:underline"
             >
-              henryokagbue2014@gmail.com
+              henrybdesignsltd@gmail.com
             </a>
           </p>
         </div>
